@@ -1,0 +1,26 @@
+{
+  "name": "three-js-playground",
+  "version": "1.0.0",
+  "description": "Just a playground for testing three js",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w src/scss/ -o src/css/ --recursive",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OhColar/three-js-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OhColar/three-js-playground/issues"
+  },
+  "homepage": "https://github.com/OhColar/three-js-playground#readme",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2",
+    "node-sass": "^7.0.3",
+    "scss": "^0.2.4"
+  }
+}
